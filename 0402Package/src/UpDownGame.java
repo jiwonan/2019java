@@ -3,11 +3,11 @@ public class UpDownGame {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int num = (int)(Math.random() * 101);
+		int num = (int)(Math.random() * 100);
 		int user_num = -1;
 		int count = 1;
 		while(count <= 5) {
-			System.out.print("숫자 입력(0~99)? ");
+			System.out.print("숫자 입력(0~100)? ");
 			user_num = sc.nextInt();
 			if(user_num > num) {
 				System.out.println(">>> 너무 큽니다.(" + count + "회)");
