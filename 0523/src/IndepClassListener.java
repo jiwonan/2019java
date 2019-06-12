@@ -19,7 +19,7 @@ public class IndepClassListener extends JFrame{
 	}
 }
 // 내부 클래스로 Action 리스너를 작성한다.
-class MyActionListener implements ActionListener {}
+class MyActionListener implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		JButton b = (JButton)e.getSource();
 		if(b.getText().equals("Action"))
