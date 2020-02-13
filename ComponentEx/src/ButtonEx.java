@@ -7,7 +7,7 @@ public class ButtonEx extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container c = getContentPane();
 		c.setLayout(new FlowLayout());
-
+			
 		ImageIcon normalIcon = new ImageIcon("images/normalIcon.gif");
 		ImageIcon rolloverIcon = new ImageIcon("images/rolloverIcon.gif");
 		ImageIcon pressedIcon = new ImageIcon("images/pressedIcon.gif");

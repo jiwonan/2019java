@@ -29,4 +29,4 @@ public class JComponentEx extends JFrame {
 	public static void main(String[] args) {
 		new JComponentEx();
 	}
-}
+}	
